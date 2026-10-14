@@ -1,7 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
-import './App.css'
-
-const API_URL = 'http://localhost:8080/api'
+import { useEffect, useMemo, useState } from 'react'; import './App.css'; const API_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/api`
 const EXPENSE_CATEGORIES = ['Food', 'Transport', 'Shopping', 'Bills', 'Health', 'Education', 'Other']
 const INCOME_CATEGORIES = ['Salary', 'Freelance', 'Gift', 'Investment', 'Other']
 

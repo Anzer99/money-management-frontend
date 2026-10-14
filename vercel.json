@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://money-management-backend-4z8n.onrender.com/api/:path*"
+    }
+  ]
+}
